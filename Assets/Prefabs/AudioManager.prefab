@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3693451339315748280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7600689217069005904}
+  - component: {fileID: 2505685208327046230}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7600689217069005904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3693451339315748280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2505685208327046230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3693451339315748280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6b12a6997983c4bac48e14f404a44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CollectBottle
+    clip: {fileID: 8300000, guid: 8d0b9d86dd3e1de4cb225f496d33ddda, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    volumeVariance: 0
+  - name: IsHurt
+    clip: {fileID: 8300000, guid: 74a86ba120ec92a42a35091f8cd8bca5, type: 3}
+    loop: 0
+    volume: 0.799
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: GetHealth
+    clip: {fileID: 8300000, guid: f7dd4be6cbd29d545a7e1054068bdce7, type: 3}
+    loop: 0
+    volume: 0.848
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: LoseHealth
+    clip: {fileID: 8300000, guid: 005f100d6635bfc4f9b79ad3fc743a81, type: 3}
+    loop: 0
+    volume: 0.835
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: Grow
+    clip: {fileID: 8300000, guid: 1b2ff79ff6656cf408f2e02e466f4759, type: 3}
+    loop: 0
+    volume: 0.683
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: Shrink
+    clip: {fileID: 8300000, guid: 37d5d08018894bc4d88478f5010b40d0, type: 3}
+    loop: 0
+    volume: 0.814
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: MenuBgm
+    clip: {fileID: 8300000, guid: 439d8e835c219d04ab7a861cd82c98fe, type: 3}
+    loop: 1
+    volume: 0.647
+    pitch: 1
+    pitchVariance: 0
+    volumeVariance: 0
+  - name: BottleBreak
+    clip: {fileID: 8300000, guid: 358997d9bd80f424195c1b949e732e83, type: 3}
+    loop: 0
+    volume: 0.742
+    pitch: 1
+    pitchVariance: 0.114
+    volumeVariance: 0.086
+  - name: LevelBgm
+    clip: {fileID: 8300000, guid: 45e98de681bbd074cbfbfd77033421de, type: 3}
+    loop: 1
+    volume: 0.186
+    pitch: 1
+    pitchVariance: 0
+    volumeVariance: 0
+  - name: AddScore
+    clip: {fileID: 8300000, guid: 84f8fe93401b0514b842dd6ec1f0cdf6, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: GameOver
+    clip: {fileID: 8300000, guid: cae59ee2c8a01b646b77bd07cf003473, type: 3}
+    loop: 0
+    volume: 0.337
+    pitch: 1
+    pitchVariance: 0.1
+    volumeVariance: 0.1
+  - name: Laugh
+    clip: {fileID: 8300000, guid: 1f35160f0f05f6447a4a11ca0d80d1e7, type: 3}
+    loop: 0
+    volume: 0.928
+    pitch: 1
+    pitchVariance: 0.061
+    volumeVariance: 0.1
+  - name: UkScream
+    clip: {fileID: 8300000, guid: d11f5cd6957efb34e8faa986bd397f6f, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    pitchVariance: 0.022
+    volumeVariance: 0.011
+  - name: Jump
+    clip: {fileID: 8300000, guid: e5329bcbc4b49fd47a512fc4b488c4f5, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    pitchVariance: 0.022
+    volumeVariance: 0.011
